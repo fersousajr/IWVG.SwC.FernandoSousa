@@ -20,4 +20,14 @@ public class FractionTest {
         assertTrue(new Fraction(2, 2).isProper());
     }
 
+    @Test
+    public final void testIsEquivalent() {
+    	Fraction f1 = new Fraction(2, 3);
+    	Fraction f2 = new Fraction(4, 6);
+    	assertTrue(f1.isEquivalent(f2));
+    	
+    	f2 = new Fraction(3, 4);
+    	assertFalse(f1.isEquivalent(f2));
+    }
+    
 }
