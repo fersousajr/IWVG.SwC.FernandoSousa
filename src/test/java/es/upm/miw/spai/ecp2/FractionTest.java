@@ -30,4 +30,11 @@ public class FractionTest {
     	assertFalse(f1.isEquivalent(f2));
     }
     
+    @Test
+    public void testGreaterThan() {
+    	
+    	assertTrue(new Fraction(1, 2).greaterThan(new Fraction(2, 5)));
+    	assertFalse(new Fraction(0, 2).greaterThan(new Fraction(1, 2)));
+    }
+    
 }
