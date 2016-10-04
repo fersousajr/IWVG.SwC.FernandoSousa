@@ -72,4 +72,7 @@ public class Fraction {
     	return (numerator * f.getDenominator()) == (denominator * f.getNumerator());
     }
     
+    public boolean greaterThan(Fraction other) {
+    	return this.decimal() > other.decimal();
+    }
 }
