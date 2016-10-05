@@ -15,9 +15,9 @@ public class FractionTest {
 
     @Test
     public final void testIsImproper() {
-        assertFalse(new Fraction(2, 3).isProper());
-        assertTrue(new Fraction(3, 2).isProper());
-        assertTrue(new Fraction(2, 2).isProper());
+        assertFalse(new Fraction(2, 3).isImproper());
+        assertTrue(new Fraction(3, 2).isImproper());
+        assertTrue(new Fraction(2, 2).isImproper());
     }
 
     @Test
