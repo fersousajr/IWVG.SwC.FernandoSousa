@@ -60,4 +60,19 @@ public class Fraction {
         return (double) numerator / denominator;
     }
     
+    public boolean isProper() {
+        return numerator < denominator;
+    }
+    
+    public boolean isImproper() {
+        return numerator >= denominator;
+    }
+    
+    public boolean isEquivalent(Fraction f) {
+    	return (numerator * f.getDenominator()) == (denominator * f.getNumerator());
+    }
+    
+    public boolean greaterThan(Fraction other) {
+    	return this.decimal() > other.decimal();
+    }
 }
