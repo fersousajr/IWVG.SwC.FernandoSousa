@@ -2,9 +2,7 @@
 ## Arquitecto
 Fernando José de Sousa Junior
 ## Programadores
-Alan Marc
-Daniel González
-Eneas Macias
+Alan Marc, Daniel González y Eneas Macias
 ## Cuenta de GitHub
 fersousajr
 ## URL de GitHub
